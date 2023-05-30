@@ -1,0 +1,80 @@
+.container{
+ display: flex;
+ margin: 4% 10%;
+ flex-direction: column;
+  background-color: rgb(205, 205, 228);
+}
+
+.flexrow{
+  display: flex;
+  flex-direction: row;
+}
+
+.flexcol{
+  display: flex;
+  flex-direction: column;
+}
+
+.top{
+  display: flex;
+  margin: auto;
+
+  width: 100%;
+  
+  background-color: white;
+}
+
+.inptop {
+  width : 80%;
+  height : 30px;
+  border : 0;
+  display: flex;
+}
+
+.detail{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-evenly;
+  
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.det1{
+width: 15%px;
+background-color: rgb(255, 255, 255);
+align-items: center;
+padding: 5%;
+border-radius: 15px;
+}
+
+.det2{
+width: 60%;
+background-color: rgb(255, 255, 255);
+align-items: center;
+border-radius: 15px;
+}
+
+.det2 h3{
+  margin-left: 30px;
+}
+
+.det3{
+  
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin-left: 10%;
+}
+.det3 .title {
+  font-weight: 600;
+}
+
+.det3 .data{
+  margin-left: 15%;
+}
+
+.det3 p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
